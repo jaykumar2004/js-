@@ -48,3 +48,24 @@ console.log(typeof anotherId);
 
 //Documentation-----
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Stack(premitive) and heap memory(non premitive)
+
+let myName = "Jay Kumar";
+let anotherName = myName;
+anotherName="Jangid"
+console.log(anotherName);
+console.log(myName);
+
+let userOne = {
+    email: "jay@gmail.com",
+    upi: "jay@sbi"
+}
+
+let userTwo =userOne;
+
+userTwo.email = "Jay123@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
