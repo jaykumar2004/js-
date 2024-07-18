@@ -29,8 +29,17 @@ console.log(mytimeStamp); //1721209545975
 
 console.log(twoDate.getTime()); //1721174400000 , to get the time in mili seconds
 
+console.log(Math.floor(Date.now()/1000));
 
 
 
+let thirdDate = new Date()
+console.log(thirdDate.getMonth() + 1);
+console.log(thirdDate.getDay());
+
+thirdDate.toLocaleString('default',{
+    //press ctr+space
+    
+})
 
 
