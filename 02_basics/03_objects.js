@@ -26,5 +26,3 @@ console.log(jsuser[mySym]);
 //to changes things in objects
 
 jsuser.email = "jay@chatgpt.com";
-
-//
