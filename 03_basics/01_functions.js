@@ -18,7 +18,7 @@ saymyname() //this is function execution
 //function to add two number
 
 // function addtwoNumber(number1, number2) { //number 1 and 2 are parameters
-//     console.log(number1 + number2);
+//     console.log(number1 + number2);  
 // } 
 
 function addtwoNumber(number1, number2) { //number 1 and 2 are parameters
@@ -48,7 +48,7 @@ function calculateCartPrice(val1, val2,...num1){ //... is rest operator
 console.log(calculateCartPrice(200,400,600,800,1000)); //returns an array
 
 
-//how to pass an object into an function 
+//how to pass an object into an function  
 const user = {
     username: "jay kumar",
     price: 199
@@ -73,5 +73,7 @@ function returnSecondValue(getArray){
 }
 // console.log(returnSecondValue(myNewArray));
 console.log(returnSecondValue([200,400,100,600]));
+
+
 
 
