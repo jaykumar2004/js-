@@ -20,7 +20,7 @@ function one(){
 
     function two(){
         const website = "youtube"; //error in this because "yea website ko keha access ker rehe ho, yea website to andar tha, iska scope to andar he khartam ho geya"
-        console.log(username);
+        // console.log(username);
     }
     // console.log(website);
     
@@ -34,10 +34,25 @@ if (true) {
 
     if (username === "Jay") {
         const website = " youtube";
-        console.log(username+website);
+        // console.log(username+website);
     }
     // console.log(website); //error in this 
     
 }
 // console.log(username); //error in this code
 
+
+//++++++++++++++++++++++++++++++interesting+++++++++++++++++++++++++++++++++++++++++++//
+console.log(addone(5)); //it simply give the output
+function addone(num) {  //this is a function
+    return num + 1;
+}
+// addone(5);
+
+
+
+addtwo(5); //this will give error => "Cannot access 'addtwo' before initialization" this is called hoisting
+const addtwo = function(num) { //this is also a function but sometimes we can say it is a expression
+    return num + 2;
+}
+// addtwo(5);
